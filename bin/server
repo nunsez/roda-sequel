@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+cd -P -- "$(dirname -- "$0")"
+cd ".."
+
+bundle exec iodine -port="3000" -workers="1" -threads="4" -public="./" -log "./config.ru"

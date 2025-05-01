@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# shellcheck disable=all
+
+require "irb"
+require_relative "../environment"
+
+IRB.start(__FILE__)

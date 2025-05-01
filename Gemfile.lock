@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.9)
+    iodine (0.7.58)
+    rack (3.1.13)
+    rack-unreloader (2.1.0)
+    roda (3.91.0)
+      rack
+    sequel (5.91.0)
+      bigdecimal
+    sqlite3 (2.6.0-x86_64-linux-gnu)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  iodine (~> 0.7.58)
+  rack-unreloader (~> 2.1)
+  roda (~> 3.91)
+  sequel (~> 5.91)
+  sqlite3 (~> 2.6)
+
+BUNDLED WITH
+   2.4.19
